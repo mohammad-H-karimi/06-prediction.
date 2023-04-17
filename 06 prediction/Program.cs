@@ -17,7 +17,11 @@ var currencyinfo = await currencyprocess.currencyinformation();
 
 PredictinData PD = new PredictinData();
 DataSaver DS = new DataSaver();
-
+do
+{
+  
 DS.datasaver();
 
 PD.reader();
+  
+}while(true);
